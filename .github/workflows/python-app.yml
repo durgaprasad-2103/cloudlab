@@ -33,4 +33,5 @@ jobs:
         flake8 simreg.py --count --exit-zero --max-complexity=10 --max-line-length=127 --statistics
     - name: Test with pytest
       run: |
+        pip install matplotlib matplotlib.pyplot numpy pandas sklearn
         python simreg.py
