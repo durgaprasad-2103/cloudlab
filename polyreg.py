@@ -1,5 +1,6 @@
 import pandas as pd
 x=[[4.0],[5.0],[6.0],[7.0],[8.0],[9.0],[10.0]]
+
 y=[  16, 25 , 36, 49,64,81, 100]
 # Step 2 - Fitting Linear Regression
 from sklearn.linear_model import LinearRegression
